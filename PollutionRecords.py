@@ -99,6 +99,9 @@ def get_oxygen_records_by_year(records: list[WaterQualityRecord]) -> dict[int, l
 
 if __name__ == "__main__":
     # Test loading
+    '''
+    https://data.ca.gov/dataset/water-quality-data
+    '''
     records = load_water_quality_csv("field_results.csv")
     print(f" Testing : Loaded {len(records)} Santa Barbara dissolved oxygen records")
     
