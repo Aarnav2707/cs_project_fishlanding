@@ -111,6 +111,9 @@ def get_landings_by_year(landings: list[FishLanding]) -> dict[int, int]:
 
 if __name__ == "__main__":
     # Test loading a single year
+    '''
+    https://wildlife.ca.gov/Conservation/Marine/Data-Management-Research/MFDE/Commercial-Landings
+    '''
     print("Testing : Loading 1990 data:")
     landings_1990 = get_fish_landings_in_specified_year(1990)
     if landings_1990:
